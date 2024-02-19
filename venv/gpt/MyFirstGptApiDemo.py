@@ -10,4 +10,5 @@ completion = client.chat.completions.create(
   ]
 )
 
+print("openai")
 print(completion.choices[0].message)
