@@ -12,6 +12,6 @@ def extract_text_from_pdf(pdf_path):
     return text
 
 # 提取PDF文档中的文本内容
-pdf_text = extract_text_from_pdf("/Users/Andy/Desktop/XX银行核心业务系统POC测试方案V1.0.pdf")
-#pdf_text = extract_text_from_pdf("/Users/Andy/Desktop/全球政治经济学-扫描版.pdf")
+#pdf_text = extract_text_from_pdf("/Users/Andy/Desktop/XX银行核心业务系统POC测试方案V1.0.pdf")
+pdf_text = extract_text_from_pdf("/Users/Andy/Downloads/dall-e-3技术文档.pdf")
 print(pdf_text)
